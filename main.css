@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'headland One';
+    font-size: 15px
+}
+
+/* Global*/
+ul{
+    margin: 0%; /*Takes away defult styling for li*/
+    padding: 0%;
+    float: right;
+    display: inline;
+}
+
+.container{
+    width: 80%
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px 
+}
+
+header a{
+    color: #ffffff; 
+    text-decoration: none; /*no defult underlining for links*/
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    list-style: none;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    position: sticky;
+    height:100%;
+    width: 100%;
+    border-top: 1px:
+    border-bottom: 10px;
+
+}
+
+header .highlight, header .home a{
+    color: #695958;
+    font-weight: bold;
+    height: 15px;
+}
+
+#aboutUs{
+    background-color: #B6C8A9;
+    height: 300px;
+    padding: 150px;
+    text-align: left;
+    font-family: 'headland One';
+}
+
+img{
+    padding: inherit;
+}
+
+#productsyoulove{
+    background-color: #C8EAD3;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'headland One';
+    font-size: 20px;
+}
+
+#difflinDiff{
+    background-color: #CFFFE5;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'headland One';
+    font-size: 20px;
+}
+
+footer{
+    background-color: #CEDADA;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'headland One';
+    font-size: 20px;
+}
+
+#productsyoulove img{
+    display: inline;
+}
+
+#productsyoulove ul{
+    margin: 0%;
+    padding: 0;
+}
+
+
+#aboutUs{
+   min-height: 400px;
+   background: url('image/environmental.jpg')no-repeat 0px -50px;
+   background-size: cover;
+}
+
+
