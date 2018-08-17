@@ -3,6 +3,7 @@
 <head>
    <link rel="stylesheet" href="main.css">
    <link href="https://fonts.googleapis.com/css?family=Headland+One|Open+Sans:600|Raleway:500" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content-type:"width=device-width initial-scale=1>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,49 +18,60 @@
             
             <nav>
                 <ul>
-                    <li class="home"><a href="https://example.com">About Us</a></li>
-                    <li><a href="https://example.com">Products You Love</a></li>
-                    <li><a href="https://example.com">Difflin Difference</a></li>
-                    <li><a href="https://example.com">Contact Us</a></li>
+                    <li class="home"><a href="#">About Us</a></li>
+                    <li><a href="#">Products You Love</a></li>
+                    <li><a href="#">Difflin Difference</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
 </header>
     <main> 
         <section id="aboutUs">
-            <div ="container">
-                 <h1>About Us</h1>
+            <div class="container">
+                <div class="aboutUsContainer"> 
+                <h1>About Us</h1>
+                 <p>
                 History: Munder Difflin Paper Corp., parent company to Dunder Mifflin is a family run paper sales company located in the heart of New York City. Munder Difflin was founded in 1949 by Robert Dunder to help local bussiness streamline their operation.
                 Mission: To improve people’s lives, the planet and our company's performance by transforming renewable resources into products people depend on every day.
                 Values: To be among the most successful, sustainable and responsible companies in the world
                 </p>
             </div>
+            </div>
         </section>
 
         <section id="productsyoulove">
         <h1>Products You Love</h1>
-            <img src="image/kodak.jpg" alt="kodak logo" height="150" width="200">
-            <img src="image/postmark.jpg" alt="postmark logo" height="150" width="400">
-            <img src="image/emeahp.jpg" alt="kodak logo" height="150" width="300">
+            <img src="image/kodak.jpg" alt="kodak logo" id="kodak" onmouseover="newPic0()" onmouseout="oldPic0()" height="150" width="200">
+            <img src="image/emeahp.jpg" alt="hp logo" id="hp" onmouseover="newPic2()" onmouseout="oldPic2()" height="150" width="300">
         </section>
 
         <section id="difflinDiff">
-        <h1>The Difflin Difference</h1>
+        <div>
+            <h1>The Difflin Difference</h1>
             <p> The Difflin Difference is how we go beyond just doing the right things; it’s how we create value for all stakeholders for generations to come.</p>
 
                     <p>We do this by:</p>
                     
-                    <ul>
-                        <li>Investing in People</li>
-                        <li>Improving our Planet</li>
-                        <li>Creating Innovative Products</li>
-                        <li>Delivering Inspired Performance</li>
-                     </ul>
+                    <p>
+                        Investing in People<br>
+                        mproving our Planet<br>
+                        Creating Innovative Products<br>
+                        Delivering Inspired Performance<br>
+                    </p>
+        </div>
         </section>
     </main>
 
     <Footer>
         <h1>Contact Us</h1>
+        <div class="howToContactUS">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+            
+        </div>
     </Footer>
+    <script src="main.js"></script>
 </body>
 </html>

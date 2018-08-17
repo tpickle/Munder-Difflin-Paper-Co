@@ -9,7 +9,7 @@ body{
 ul{
     margin: 0%; /*Takes away defult styling for li*/
     padding: 0%;
-    float: center;
+    float: right;
     display: inline;
 }
 
@@ -17,20 +17,6 @@ ul{
     width: 80%
     margin: auto;
     overflow: hidden;
-}
-
-.aboutUsContainer{
-    height: 500px;
-    width: 100%;
-    position: relative;
-    animation: aboutUsMove 15s infinite;
-}
-
-@-webkit-keyframes aboutUsMove{
-    0%   {top: 0px;}
-    25%  {top: 300px;}
-    75%  {top: 100px}
-    100% {top: 200px;}
 }
 
 header{
@@ -53,7 +39,7 @@ header a:hover{
 }
 
 header li{
-    float: right;
+    float: left;
     display: inline;
     padding: 0 20px 0 20px;
     list-style: none;
@@ -85,13 +71,13 @@ header .highlight, header .home a{
 #aboutUs{
     background-color: #B6C8A9;
     height: 300px;
-    padding: 150px;
-    text-align: left;
+    padding: 40px;
+    text-align: center;
     font-family: 'headland One';
 }
 
 img{
-    padding: inherit; 
+    float: left;
 }
 
 #productsyoulove{
@@ -123,50 +109,12 @@ footer{
 
 #productsyoulove img{
     display: inline;
-
-
 }
-
-#productsyoulove ul{
-    margin: 0%;
-    padding: 0;
-}
-
-
+/**
 #aboutUs{
    min-height: 400px;
-   background: url('image/environmental.jpg')no-repeat 0px -50px;
+   background: url('image/environmental.jpg')no-repeat 0px -100px;
    background-size: cover;
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-
-
-
-
+**/
 
